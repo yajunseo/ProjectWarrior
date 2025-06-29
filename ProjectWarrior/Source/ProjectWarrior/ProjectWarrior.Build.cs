@@ -16,7 +16,8 @@ public class ProjectWarrior : ModuleRules
 			"InputCore",
 			"EnhancedInput",
 			"GameplayTags",
-			"EnhancedInput"
+			"EnhancedInput",
+			"GameplayTasks"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
