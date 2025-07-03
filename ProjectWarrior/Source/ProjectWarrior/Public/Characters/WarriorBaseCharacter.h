@@ -21,7 +21,7 @@ public:
 	AWarriorBaseCharacter();
 
 	//~ Begin IAbilitySystemInterface Interface.More actions
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const;
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	//~ End IAbilitySystemInterface Interface
 
 protected:
